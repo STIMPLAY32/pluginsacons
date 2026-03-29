@@ -1,2 +1,2 @@
-def run():
+def reload():
     print('Код работает!')
