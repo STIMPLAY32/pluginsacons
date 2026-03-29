@@ -1,2 +1,2 @@
-    elif answer == 'reload':
-        print('Код с гитхаба работает!')
+def run():
+    print('Код работает!')
