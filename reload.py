@@ -1,2 +1,2 @@
-elif answer == 'reload':
+def run():
     print('Код с гитхаба работает!')
