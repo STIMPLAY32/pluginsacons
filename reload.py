@@ -1,2 +1,2 @@
-if answer == 'reload':
+elif answer == 'reload':
     print('Код с гитхаба работает!')
