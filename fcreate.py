@@ -1,3 +1,4 @@
+import os
 def fcreate():
   folder_name = input('Enter folder name >> ')
   file_name = input('Enter file name >> ')
