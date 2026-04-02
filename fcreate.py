@@ -7,4 +7,4 @@ def fcreate():
   os.makedirs(folder_name, exist_ok=True)
   
   with open(file_path, 'w', encoding='utf-8') as f:
-      f.write(input('Enter text')
+      f.write(input('Enter text'))
