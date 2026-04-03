@@ -1,6 +1,5 @@
 import tkinter as tk
 import os
-from colorama import Fore
 def testgui():
     def createfile():
         with open('filecreatedwithgui', 'w', encoding='utf-8') as file:
