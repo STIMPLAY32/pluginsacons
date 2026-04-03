@@ -3,17 +3,10 @@ import os
 from colorama import Fore
 def testgui():
     def createfile():
-        nametxtw = answer.split(" ", 1)[1]
-        try:
-            with open(nametxtw, 'a', encoding='utf-8') as file:
-                print(Fore.YELLOW + 'Loading...')
-            text = input(name + '@root > writetxt > Enter text >> ')
-            with open(nametxtw, 'a', encoding='utf-8') as file:
-                    file.write('\n' + text)
-            full_path = os.path.abspath(nametxtw)
-            print(Fore.GREEN + 'Saved in ' + full_path)
-        except FileNotFoundError:
-            print(Fore.RED + f'File {nametxtw} not found')
+        with open('filecreatedwithgui', 'w', encoding='utf-8') as file:
+                file.write('\n File created!')
+        full_path = os.path.abspath(nametxtw)
+        print(Fore.GREEN + 'Saved in ' + full_path)
     window = tk.Tk()
     window.title("AConsole GUI")
     window.geometry("400x300")
