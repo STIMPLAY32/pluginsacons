@@ -21,7 +21,7 @@ def testgui():
     label = tk.Label(window, text="Добро пожаловать в AConsole GUI!", font=("Arial", 14))
     label.pack(pady=20)
 
-    button = tk.Button(window, text="Нажми меня", command=lambda: label.config(text="Кнопка нажата!"))
+    button = tk.Button(window, text="Нажми меня", command=createfile())
     button.pack(pady=10)
 
     window.mainloop()
