@@ -5,8 +5,6 @@ def testgui():
     def createfile():
         with open('filecreatedwithgui', 'w', encoding='utf-8') as file:
                 file.write('\n File created!')
-        full_path = os.path.abspath(nametxtw)
-        print(Fore.GREEN + 'Saved in ' + full_path)
     window = tk.Tk()
     window.title("AConsole GUI")
     window.geometry("400x300")
